@@ -6,7 +6,7 @@ require 'redcloth'
 require 'syntax/convertors/html'
 
 # Redefines to accomodate tests
-class RedCloth
+class RedCloth::TextileDoc
     SYNTAX_CONVERT = Syntax::Convertors::HTML.for_syntax "ruby"
     
     # Intercept some Kernel calls for the cause of testing.

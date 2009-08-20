@@ -22,6 +22,8 @@ license for this text.  (See the 'deed' portion of poignant.yml.)
 
 You will need to install RedCloth. <http://whytheluckystiff.net/ruby/redcloth/>
 
+You will also need to install the syntax gem.
+
 To build the HTML version of this book:
 
   ruby poignant.rb /path/to/output
